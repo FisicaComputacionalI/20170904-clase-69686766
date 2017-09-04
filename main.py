@@ -10,7 +10,6 @@ y=[0,0,1,2,2,2,2,1,4,5,5,5,6,7,7,7,7,7,6,4,7,7]
 pl.xlabel('anios')
 #grafica el vector x contra el vector y 
 pl.plot(x,y)
-pl.plot(x,y,'ro')
 # guarda la imagen
 pl.savefig('temp1.png')
 
